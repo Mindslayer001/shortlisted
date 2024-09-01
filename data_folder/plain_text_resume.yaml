@@ -1,0 +1,127 @@
+personal_information:
+  name: "Mani Sankar"
+  surname: "Chintagunti"
+  date_of_birth: "23/06/2004"
+  country: "India"
+  city: "Visakhapatnam"
+  address: "Madhuruwada, Visakhapatnam, Andhra Pradesh, India"
+  phone_prefix: "+91"
+  phone: "8790263349"
+  email: "manisankarchintagunti@gmail.com"
+  github: "https://github.com/Mindslayer001"
+  linkedin: "https://www.linkedin.com/in/manisankar001"
+
+education_details:
+  - degree: "B.Tech"
+    university: "Lendi Institute of Engineering and Technology"
+    gpa: "8.18"
+    graduation_year: "2025"
+    field_of_study: "Computer Science and System Engineering"
+    exam:
+
+experience_details:
+  - position: "Full Stack Developer Intern"
+    company: "Smart Bridge"
+    employment_period: "May 2024 - Present"
+    location: Remote
+    industry: "Web Development"
+    key_responsibilities:
+      - responsibility_1: "Designed and maintained web applications using React, MongoDB, and Django."
+    skills_acquired:
+      - "Web Development"
+      - "React"
+      - "Django"
+  
+  - position: "Full Stack Developer Intern"
+    company: "Ecoveta"
+    employment_period: "May 2023 - Nov 2023"
+    location: Remote
+    industry: "Web Development"
+    key_responsibilities:
+      - responsibility_1: "Collaborated on designing and deploying web applications with React, MongoDB, and Django."
+    skills_acquired:
+      - "Web Development"
+      - "React"
+      - "MongoDB"
+
+  - position: "Web Application Pentester Intern"
+    company: "Indian Servers"
+    employment_period: "Dec 2022 - Feb 2023"
+    location: Remote
+    industry: "Cybersecurity"
+    key_responsibilities:
+      - responsibility_1: "Conducted vulnerability assessments and employed ethical hacking techniques to enhance system security."
+    skills_acquired:
+      - "Web Application Security"
+      - "Ethical Hacking"
+      - "Vulnerability Assessment"
+
+projects:
+  - name: "Contact Card"
+    description: "Developed a mobile app for sharing visiting cards offline using TypeScript, React Native, and Expo."
+    link: "https://github.com/Mindslayer001/ContactCard"
+  - name: "Beginner CLI"
+    description: "Created a CLI tool to assist Linux users with AI-driven command suggestions using Python, Bash, and Go."
+    link: "https://github.com/Mindslayer001/Beginner-Cli"
+  - name: "PixelFun"
+    description: "Built an AI story generator with interactive character scenarios for children using React and FastAPI."
+    link: "https://github.com/Mindslayer001/gdsc-wow"
+  - name: "Instagram Scrapper"
+    description: "Developed a web scraper for Instagram data using React, NodeJS, and Puppeteer JS."
+    link: "https://github.com/Mindslayer001/Instagram-Scrapper-Tool"
+
+achievements:
+  - name: "Winner in GDSC WOW"
+    description: "Secured first place in the Entrepreneurship category at the Google DSC hackathon in June 2024."
+  - name: "Freelancing"
+    description: "Co-founded BUG.del, developing solutions and collaborating with international clients to resolve real-time issues."
+  - name: "OpenSource Developer"
+    description: "Actively contribute to and maintain open-source projects, driven by a strong respect for open source principles and a passion for enhancing community-driven software."
+
+certifications:
+  
+
+languages:
+  - language: "English"
+    proficiency: "Fluent"
+  - language: "Telugu"
+    proficiency: "Native"
+
+interests:
+  - "Software Development"
+  - "Open Source Contribution"
+  - "AI and Machine Learning"
+  - "Cybersecurity"
+  - "Linux Administration"
+
+availability:
+  notice_period: "immediately"
+
+
+salary_expectations:
+  salary_range_usd: "100000"
+
+self_identification:
+  gender: "Male"
+  pronouns: "He/Him"
+  veteran: "No"
+  disability: "No"
+  ethnicity: "Asian"
+
+legal_authorization:
+  eu_work_authorization: "No"
+  us_work_authorization: "No"
+  requires_us_visa: "Yes"
+  requires_us_sponsorship: "Yes"
+  requires_eu_visa: "Yes"
+  legally_allowed_to_work_in_eu: "No"
+  legally_allowed_to_work_in_us: "No"
+  requires_eu_sponsorship: "Yes"
+
+work_preferences:
+  remote_work: "Yes"
+  in_person_work: "Yes"
+  open_to_relocation: "Yes"
+  willing_to_complete_assessments: "Yes"
+  willing_to_undergo_drug_tests: "Yes"
+  willing_to_undergo_background_checks: "Yes"

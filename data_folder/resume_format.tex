@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{banking} % Options: 'banking', 'classic', 'casual', 'oldstyle', 'fancy'
+\moderncvcolor{blue} % Options: 'blue', 'orange', 'green', 'red', 'purple', 'grey', 'black'
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+
+% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% Personal data
+\name{Your}{Name}
+\title{Resume}
+\address{123 Main Street}{City, State, ZIP}
+\phone[mobile]{(123) 456-7890}
+\email{your.email@example.com}
+\social[linkedin]{yourprofile}
+\social[github]{yourusername}
+
+% Custom spacing for sections
+\renewcommand{\sectionfont}{\normalfont\Large\bfseries}
+\renewcommand{\subsectionfont}{\normalfont\large\bfseries}
+\renewcommand{\subsubsectionfont}{\normalfont\normalsize\bfseries}
+
+% Define custom border and spacing
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows.meta, positioning}
+
+\begin{document}
+
+% Print the header
+\makecvtitle
+
+% Section: Objective
+\section{Objective}
+A brief statement of your career goals and what you aim to achieve in the position you’re applying for.
+
+% Section: Education
+\section{Education}
+\cventry{Month Year -- Month Year}{Degree, Major}{University Name}{City, State}{\textit{GPA: X.XX}}{%
+    \begin{itemize}
+        \item Relevant coursework or achievements
+    \end{itemize}
+}
+
+% Section: Experience
+\section{Experience}
+\cventry{Month Year -- Month Year}{Job Title}{Company Name}{City, State}{}{%
+    \begin{itemize}
+        \item Description of responsibilities and achievements
+        \item Another accomplishment or task
+    \end{itemize}
+}
+
+\cventry{Month Year -- Month Year}{Another Job Title}{Another Company Name}{City, State}{}{%
+    \begin{itemize}
+        \item Description of responsibilities and achievements
+        \item Another accomplishment or task
+    \end{itemize}
+}
+
+% Section: Skills
+\section{Skills}
+\cvitem{Skill 1}{Description or proficiency level}
+\cvitem{Skill 2}{Description or proficiency level}
+\cvitem{Skill 3}{Description or proficiency level}
+
+% Section: Projects
+\section{Projects}
+\cvitem{Project Title}{A brief description of the project and your role in it. \\
+\begin{itemize}
+    \item Key technologies or skills used
+    \item Achievements or outcomes
+\end{itemize}}
+
+% Section: Certifications
+\section{Certifications}
+\cvitem{Certification Name}{Issuing Organization, Month Year}
+
+% Additional Sections (Optional)
+% You can add more sections like Publications, Volunteer Work, etc.
+
+\end{document}
